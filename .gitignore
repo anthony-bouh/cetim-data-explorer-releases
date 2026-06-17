@@ -1,0 +1,27 @@
+# Release binaries are uploaded to GitHub Releases, not committed to Git.
+*.exe
+*.msi
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.rar
+
+# Private Python source/build artifacts do not belong in this public release repo.
+*.py
+*.pyw
+*.pyc
+*.pyo
+*.spec
+__pycache__/
+.venv/
+venv/
+build/
+dist/
+
+# Local/editor noise.
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
